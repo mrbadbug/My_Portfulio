@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Users, Handshake, Target } from 'lucide-react';
+import { Users, Target, Hand } from 'lucide-react'; 
 const softSkills = [
 {
   name: 'Project Management',
