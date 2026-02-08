@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Users, Target, Hand } from 'lucide-react'; 
+import { Users, Target, HandGrab } from 'lucide-react'; 
 const softSkills = [
 {
   name: 'Project Management',
@@ -11,7 +11,7 @@ const softSkills = [
 },
 {
   name: 'Teamwork',
-  icon: Handshake,
+  icon: HandGrab,
   color: 'from-lavender to-lavender-dark',
   description:
   'Collaborating effectively with cross-functional teams, sharing knowledge, and contributing to collective goals.'
