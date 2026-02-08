@@ -85,15 +85,15 @@ export function Contact() {
 
     try {
       await emailjs.send(
-        'service_uhgo14c',
-        'template_j8ttfe6',
+        "service_uhgo14c",
+        "template_j8ttfe6",
         {
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
           message: formData.message
         },
-        'fakb01rO3trEHRVYD'
+        "fakb01rO3trEHRVYD"
       );
 
       alert('Message sent successfully!');
