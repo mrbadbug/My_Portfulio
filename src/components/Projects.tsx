@@ -11,7 +11,7 @@ const projects = [
     tags: ['DNN', 'XGBoost', 'LightGBM', 'Streamlit', 'Flutter'],
     github: 'https://github.com/mrbadbug/eCard_Validator',
     gradient: 'from-coral to-lavender',
-    image: '${import.meta.env.BASE_URL}project/tt.png'
+    image: '/public/project/tt.png'
   },
   {
     title: 'SummariQ',
@@ -21,7 +21,7 @@ const projects = [
     tags: ['BART', 'Hugging Face', 'NLTK', 'Python', 'NLP'],
     github: 'https://github.com/mrbadbug/SummariQ',
     gradient: 'from-lavender to-indigo-500',
-    image: '${import.meta.env.BASE_URL}project/vv.webp'
+    image: '/public/project/vv.webp'
   },
   {
     title: 'KYT_Shop',
@@ -31,7 +31,7 @@ const projects = [
     tags: ['HTML', 'CSS', 'Tailwind', 'JavaScript', 'PHP', 'MySQL'],
     github: 'https://github.com/mrbadbug/KYT_Shop',
     gradient: 'from-emerald-400 to-teal-500',
-    image: '${import.meta.env.BASE_URL}project/ss.png'
+    image: '/public/project/ss.png'
   }
 ];
 
