@@ -171,7 +171,7 @@ export function About() {
               <div className="aspect-[5.5/5.5] rounded-full overflow-hidden relative group max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-tr from-coral/20 to-lavender/20 mix-blend-overlay z-10" />
                 <img
-                  src="src/assets/prt.jpg"
+                  src="public/project/prt.jpg"
                   alt="Zakir Hussain Monir"
                   className="w-full h-full rounded-full object-cover object-top" />
 
