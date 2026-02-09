@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Github, Phone, Mail, MapPin } from 'lucide-react';
+import prt from '../assets/prt.jpg';
+
 export function About() {
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -171,7 +173,7 @@ export function About() {
               <div className="aspect-[5.5/5.5] rounded-full overflow-hidden relative group max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-tr from-coral/20 to-lavender/20 mix-blend-overlay z-10" />
                 <img
-                  src="public/project/prt.jpg"
+                  src={prt}
                   alt="Zakir Hussain Monir"
                   className="w-full h-full rounded-full object-cover object-top" />
 
