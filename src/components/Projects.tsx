@@ -1,6 +1,9 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowUpRight, Github } from 'lucide-react';
+import tt from '../assets/tt.png';
+import vv from '../assets/vv.webp';
+import ss from '../assets/ss.png';
 
 const projects = [
   {
@@ -11,7 +14,7 @@ const projects = [
     tags: ['DNN', 'XGBoost', 'LightGBM', 'Streamlit', 'Flutter'],
     github: 'https://github.com/mrbadbug/eCard_Validator',
     gradient: 'from-coral to-lavender',
-    image: 'src/assets/tt.png'
+    image: tt
   },
   {
     title: 'SummariQ',
@@ -21,7 +24,7 @@ const projects = [
     tags: ['BART', 'Hugging Face', 'NLTK', 'Python', 'NLP'],
     github: 'https://github.com/mrbadbug/SummariQ',
     gradient: 'from-lavender to-indigo-500',
-    image: 'src/assets/vv.webp'
+    image: vv
   },
   {
     title: 'KYT_Shop',
@@ -31,7 +34,7 @@ const projects = [
     tags: ['HTML', 'CSS', 'Tailwind', 'JavaScript', 'PHP', 'MySQL'],
     github: 'https://github.com/mrbadbug/KYT_Shop',
     gradient: 'from-emerald-400 to-teal-500',
-    image: 'src/assets/ss.png'
+    image: ss
   }
 ];
 
