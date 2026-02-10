@@ -51,7 +51,7 @@ export function Hero() {
             duration: 1,
             delay: 0.5
           }}
-          className="mb-7 inline-block">
+          className="mb-0 inline-block">
 
           <span className="text-coral font-medium tracking-[0.2em] text-sm md:text-base uppercase">
             Full-Stack Developer · Flutter · Web · Python · ML & AI
