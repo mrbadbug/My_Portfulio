@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen w-full overflow-hidden bg-navy flex items-center justify-center pt-200">
+      className="relative min-h-screen w-full overflow-hidden bg-navy flex items-center justify-center pt-20">
 
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -188,7 +188,7 @@ export function Hero() {
         style={{
           opacity
         }}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-cream/30 flex flex-col items-center gap-2">
+        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-cream/30 flex flex-col items-center gap-2">
 
         <span className="text-xs tracking-widest uppercase">Scroll</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-cream/50 to-transparent" />
