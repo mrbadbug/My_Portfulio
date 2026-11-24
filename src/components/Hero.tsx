@@ -165,7 +165,7 @@ export function Hero() {
           </motion.a>
 
           <motion.a
-            href="https://drive.google.com/file/d/13GP5J335ME00_wAcYgioLg8lSRDzme9S/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1IAygwaB9hOSEl7eaGpjVfOWZUhcLQ7Dz/view?usp=drive_link"
             download
             whileHover={{
               scale: 1.05
